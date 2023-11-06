@@ -21,7 +21,7 @@ const greeting = {
   title: "Syad Khwajazada",
   logo_name: "Syad Khwajazada",
   nickname: "",
-  subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, and have been learning about Machine Learning.",
+  subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, Machine Learning, Basketball, Music and Video Games.",
   resumeLink: "",
   portfolio_repository: "https://github.com/syadk23/masterPortfolio",
   githubProfile: "https://github.com/syadk23",
@@ -221,13 +221,13 @@ const degrees = {
   degrees: [
     {
       title: "University of Guelph",
-      subtitle: "Bachelors of Engineering in Computer Engineering",
+      subtitle: "Bachelors of Engineering in Computer Engineering (Co-op)",
       logo_path: "uog_logo.png",
       alt_name: "UoG",
       duration: "2018 - 2023",
       descriptions: [
         "Notable Courses:",
-        "Operating Systems, Databases, Algorithms, Discrete Math, Software Systems and Development, Software Engineering",
+        "Operating Systems, Databases, Algorithms, Discrete Math, Software Systems and Development, Software Engineering, Large Scale Software Architecture",
       ],
       website_link: "https://www.uoguelph.ca/",
     },
@@ -240,10 +240,9 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work Experience",
+  title: "Work Experience",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "List of my work experiences in chronological order (earliest at bottom).",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -251,37 +250,25 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Full Stack Developer",
+          company: "System1",
+          company_url: "https://www.linkedin.com/company/system1co/?originalSubdomain=ca",
+          logo_path: "system1-logo.png",
+          duration: "May 2022 - Dec 2022",
+          location: "Guelph, Ontario",
+          color: "#FFFFFF",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
+            "Designed and improved many features on the company's main web application that allowed customers to purchase/view/edit and delete ads using C#, Typescript, Angular, HTML and CSS.  Also utilized MS SQL and Snowflake to query and edit database tables in the cloud.",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Embedded Software Developer",
+          company: "Molex LTD.",
+          company_url: "https://www.linkedin.com/company/molex/",
+          logo_path: "Molex-Logo.svg.png",
+          duration: "Jan 2021- Sep 2021",
+          location: "Waterloo, Ontario",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
+            "Performed both embedded and software solutions for a microcontroller board that catered to the customer requests using C and Python.  These requests included performance increases, new featuers and bug fixes.  Also created many unit test to obtain 100% code coverage using C and Cantata",
         },
       ],
     },
