@@ -21,7 +21,7 @@ const greeting = {
   title: "Syad Khwajazada",
   logo_name: "Syad Khwajazada",
   nickname: "",
-  subTitle: "Description heree",
+  subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, and have been learning about Machine Learning.",
   resumeLink: "",
   portfolio_repository: "https://github.com/syadk23/masterPortfolio",
   githubProfile: "https://github.com/syadk23",
@@ -51,12 +51,65 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Programming Lanugages",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        ""
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
+        },
+        {
+          skillName: "C",
+          fontAwesomeClassname: "fa6-solid:c",
+          style: {
+            color: "#188acc",
+          },
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "logos:c-sharp",
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "file-icons:c",
+          style: {
+            color: "#188acc",
+          },
+        },
+        {
+          skillName: "Javascript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "teenyicons:typescript-outline",
+          style: {
+            color: "#188acc",
+          },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "tabler:sql",
+          style: {
+            color: "#188acc",
+          },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "logos:java",
+        },
+      ]
+    },
+    {
+      title: "Web Development",
+      skills: [
+        ""
       ],
       softwareSkills: [
         {
@@ -97,7 +150,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "akar-icons:node-fill",
           style: {
             color: "#339933",
           },
@@ -110,78 +163,25 @@ const skills = {
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "Angular",
+          fontAwesomeClassname: "simple-icons:angular",
           style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
+            color: "#c9043f",
           },
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
+      title: "Cloud",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        ""
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -191,51 +191,21 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
       ],
     },
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Databases",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        ""
       ],
       softwareSkills: [
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
+          skillName: "MySQL",
+          fontAwesomeClassname: "logos:mysql",
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
+          skillName: "Snowflake",
+          fontAwesomeClassname: "twemoji:snowflake",
         },
       ],
     },
@@ -332,7 +302,7 @@ const publications = {};
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "uog_logo.png",
+    profile_image_path: "selfie.jpg",
     description: "Desc here",
   },
   addressSection: {
