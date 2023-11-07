@@ -23,11 +23,7 @@ class Header extends Component {
         <SeoHeader />
         <div>
           <header className="header">
-            <input className="menu-btn" type="checkbox" id="menu-btn" />
-            <label className="menu-icon" htmlFor="menu-btn">
-              <span className="navicon"></span>
-            </label>
-            <ul className="menu" style={{ backgroundColor: theme.body }}>
+            <ul className="menu">
               <li>
                 <NavLink
                   to="/home"

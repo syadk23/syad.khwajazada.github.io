@@ -20,10 +20,9 @@ const seo = {
 const greeting = {
   title: "Syad Khwajazada",
   logo_name: "Syad Khwajazada",
-  nickname: "",
   subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, Machine Learning, Basketball, Music and Video Games.",
-  resumeLink: "",
-  portfolio_repository: "https://github.com/syadk23/masterPortfolio",
+  resumeLink: "https://drive.google.com/file/d/10EHH8Jfuy7CQomU-x4b6L-GCOKPh2VnO/view?usp=sharing",
+  portfolio_repository: "https://github.com/syadk23/syad.khwajazada.github.io",
   githubProfile: "https://github.com/syadk23",
 };
 
@@ -256,7 +255,6 @@ const experience = {
           logo_path: "system1-logo.png",
           duration: "May 2022 - Dec 2022",
           location: "Guelph, Ontario",
-          color: "#FFFFFF",
           description:
             "Designed and improved many features on the company's main web application that allowed customers to purchase/view/edit and delete ads using C#, Typescript, Angular, HTML and CSS.  Also utilized MS SQL and Snowflake to query and edit database tables in the cloud.",
         },
@@ -265,7 +263,7 @@ const experience = {
           company: "Molex LTD.",
           company_url: "https://www.linkedin.com/company/molex/",
           logo_path: "Molex-Logo.svg.png",
-          duration: "Jan 2021- Sep 2021",
+          duration: "Jan 2021 - Sep 2021",
           location: "Waterloo, Ontario",
           description:
             "Performed both embedded and software solutions for a microcontroller board that catered to the customer requests using C and Python.  These requests included performance increases, new featuers and bug fixes.  Also created many unit test to obtain 100% code coverage using C and Cantata",
@@ -279,8 +277,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
+    "desc here",
 };
 
 const publications = {};
@@ -289,8 +286,7 @@ const publications = {};
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "selfie.jpg",
-    description: "Desc here",
+    description: "My resume, email and other contact information can be found below.",
   },
   addressSection: {
     title: "Address",
