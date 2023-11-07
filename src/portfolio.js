@@ -2,7 +2,6 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -18,7 +17,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Syad Khwajazada",
+  title: "Hey, I'm Syad Khwajazada",
   logo_name: "Syad Khwajazada",
   subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, Machine Learning, Basketball, Music and Video Games.",
   resumeLink: "https://drive.google.com/file/d/10EHH8Jfuy7CQomU-x4b6L-GCOKPh2VnO/view?usp=sharing",
@@ -233,16 +232,11 @@ const degrees = {
   ],
 };
 
-const certifications = {
-  certifications: [],
-};
-
 // Experience Page
 const experience = {
   title: "Work Experience",
   description:
     "List of my work experiences in chronological order (earliest at bottom).",
-  header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
@@ -280,12 +274,9 @@ const projectsHeader = {
     "desc here",
 };
 
-const publications = {};
-
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
     description: "My resume, email and other contact information can be found below.",
   },
   addressSection: {
@@ -304,11 +295,8 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
-  certifications,
   experience,
   projectsHeader,
-  publications,
   contactPageData,
 };

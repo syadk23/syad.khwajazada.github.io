@@ -23,7 +23,7 @@ class Header extends Component {
         <SeoHeader />
         <div>
           <header className="header">
-            <ul className="menu">
+            <ul className="menu" >
               <li>
                 <NavLink
                   to="/home"
@@ -81,7 +81,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Contact Me
+                  Contact
                 </NavLink>
               </li>
             </ul>
