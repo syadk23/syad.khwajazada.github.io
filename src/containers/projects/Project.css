@@ -4,11 +4,6 @@
   line-height: normal;
 }
 
-.startup-project-text img {
-  max-width: 100%;
-  height: auto;
-}
-
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
