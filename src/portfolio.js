@@ -1,8 +1,5 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
-const settings = {
-};
+const settings = {};
 
 //SEO Related settings
 const seo = {
@@ -211,10 +208,6 @@ const skills = {
 };
 
 // Education Page
-const competitiveSites = {
-  competitiveSites: [],
-};
-
 const degrees = {
   degrees: [
     {
@@ -236,7 +229,7 @@ const degrees = {
 const experience = {
   title: "Work Experience",
   description:
-    "List of my work experiences in chronological order (earliest at bottom).",
+    "List of my relevant work experiences in chronological order (earliest at bottom).",
   sections: [
     {
       title: "Work Experience",
@@ -271,7 +264,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "desc here",
+    "Here are some of the projects I have/am working on:",
 };
 
 // Contact Page

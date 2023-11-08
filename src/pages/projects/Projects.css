@@ -1,6 +1,5 @@
 .projects-main {
   width: 100%;
-  text-align: center;
 }
 
 .basic-projects {
@@ -8,27 +7,12 @@
   margin-right: 5%;
 }
 
-.projects-heading-div {
-  display: flex;
-}
-
 .projects-heading-div > * {
   flex: 1;
 }
 
-.projects-heading-img-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .projects-heading-text-div {
   text-align: center;
-}
-
-.projects-heading-img-div > * {
-  max-width: 100%;
-  height: auto;
 }
 
 .projects-heading-text {
@@ -40,13 +24,6 @@
   margin-top: 80px;
 }
 
-.projects-heading-sub-text {
-  font-size: 30px;
-  font-family: "Google Sans Regular";
-  text-align: center;
-  margin-bottom: 10px;
-}
-
 .projects-header-detail-text {
   font-size: 20px;
   line-height: 30px;
@@ -56,52 +33,38 @@
   font-family: "Google Sans Medium";
 }
 
-.repo-cards-div-main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1rem 1rem;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 60px;
+figure {
+	position: relative;
+  overflow: hidden;
+  margin: 10px 1%;
+  background: rgb(17, 16, 16);
+  text-align: center;
+  cursor: pointer;
+  max-width: 30%;
+  box-shadow: -1rem 0 3rem #000;
 }
 
-@media (max-width: 1380px) {
-  .projects-heading-text {
-    font-size: 50px;
-    margin-top: 80px;
-  }
-  .projects-heading-sub-text {
-    font-size: 25px;
-  }
+.fig-btn {
+  background-color: #263238;
+  font-weight: bold;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+.fig-btn-fill {
+  color: white;
 }
 
-@media (max-width: 768px) {
-  .projects-heading-text {
-    font-size: 30px;
-    margin-top: 20px;
-  }
+a:link { text-decoration: none; }
 
-  .projects-heading-sub-text {
-    font-size: 20px;
-  }
 
-  .projects-heading-div {
-    flex-direction: column;
-  }
+a:visited { text-decoration: none; }
 
-  .projects-header-detail-text {
-    font-size: 16px;
-    margin-right: 0px;
-    margin-left: 0px;
-    line-height: normal;
-    text-align: center;
-  }
 
-  .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 30px;
-  }
-}
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }

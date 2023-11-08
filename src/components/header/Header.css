@@ -3,7 +3,7 @@
 .header {
   margin: 0px auto;
   display: inline-block;
-  background-color: #222740;
+  background-color: rgb(17, 16, 16);
 }
 
 .header ul {
@@ -15,7 +15,7 @@
   justify-content: space-evenly;
   align-items: center;
   z-index: 1;
-  background-color: #222740;
+  background-color: rgb(17, 16, 16);
 }
 
 .header li a {
