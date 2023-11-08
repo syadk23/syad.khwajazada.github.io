@@ -41,6 +41,7 @@ figure {
   text-align: center;
   cursor: default;
   box-shadow: -1rem 0 3rem #000;
+  height: 450px;
 }
 
 .fig-btn {
