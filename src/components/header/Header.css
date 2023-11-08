@@ -16,6 +16,7 @@
   align-items: center;
   z-index: 1;
   background-color: rgb(17, 16, 16);
+  margin-top: 10px;
 }
 
 .header li a {

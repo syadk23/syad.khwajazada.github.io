@@ -7,7 +7,7 @@ import { Client as Styletron } from "styletron-engine-atomic";
 import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
-import "./assests/font-awesome/css/all.css";
+import "./assets/font-awesome/css/all.css";
 
 const engine = new Styletron();
 

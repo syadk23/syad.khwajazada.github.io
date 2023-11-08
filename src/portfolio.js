@@ -46,7 +46,7 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Programming Lanugages",
+      title: "Programming Languages",
       skills: [
         ""
       ],
@@ -164,10 +164,14 @@ const skills = {
             color: "#c9043f",
           },
         },
+        {
+          skillName: "JQuery",
+          fontAwesomeClassname: "devicon:jquery",
+        },
       ],
     },
     {
-      title: "Cloud",
+      title: "Cloud/Tools",
       skills: [
         ""
       ],
@@ -185,6 +189,18 @@ const skills = {
           style: {
             color: "#1488C6",
           },
+        },
+        {
+          skillName: "Github Actions",
+          fontAwesomeClassname: "devicon:githubactions",
+        },
+        {
+          skillName: "Confluence",
+          fontAwesomeClassname: "logos:confluence",
+        },
+        {
+          skillName: "JIRA",
+          fontAwesomeClassname: "logos:jira",
         },
       ],
     },
@@ -253,7 +269,7 @@ const experience = {
           duration: "Jan 2021 - Sep 2021",
           location: "Waterloo, Ontario",
           description:
-            "Performed both embedded and software solutions for a microcontroller board that catered to the customer requests using C and Python.  These requests included performance increases, new featuers and bug fixes.  Also created many unit test to obtain 100% code coverage using C and Cantata",
+            "Performed both embedded and software solutions for a microcontroller board that catered to the customer requests using C and Python.  These requests included performance increases, new featuers and bug fixes.  Also created many unit test to obtain 100% code coverage using C and Cantata.",
         },
       ],
     },
