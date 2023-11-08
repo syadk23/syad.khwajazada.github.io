@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "SyadKhwajazadaWebsite",
-  "homepage": "https://syadk23.github.io/portfolio",
+  "homepage": "https://syadk23.github.io",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
