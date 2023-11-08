@@ -18,7 +18,7 @@ const greeting = {
   logo_name: "Syad Khwajazada",
   subTitle: "I am a recent graduate for Computer Engineering at the University of Guelph with a focus on Software.  I am really passionate about Mobile/Web Development, Machine Learning, Basketball, Music and Video Games.",
   resumeLink: "https://drive.google.com/file/d/10EHH8Jfuy7CQomU-x4b6L-GCOKPh2VnO/view?usp=sharing",
-  portfolio_repository: "https://github.com/syadk23/syad.khwajazada.github.io",
+  portfolio_repository: "https://github.com/syadk23/syadk23.github.io",
   githubProfile: "https://github.com/syadk23",
 };
 
