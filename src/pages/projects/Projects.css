@@ -1,16 +1,3 @@
-.projects-main {
-
-}
-
-.basic-projects {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.projects-heading-div > * {
-  flex: 1;
-}
-
 .projects-heading-text-div {
   text-align: center;
 }
@@ -34,8 +21,6 @@
 }
 
 figure {
-	position: relative;
-  overflow: hidden;
   margin: 10px 1%;
   background: rgb(22, 21, 21);
   text-align: center;
@@ -99,4 +84,23 @@ h1 {
 
 .item2 {
   height: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects-heading-text-div {
+    float: left;
+  }
+
+  .wrapper {
+    display: inline-flex;
+  }
+
+  .row {
+    display: inline-block;
+  }
+
+  figure {
+    max-width: 500px;
+  }
+
 }
